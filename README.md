@@ -1,6 +1,7 @@
 # giteaOnUbuntu
-~~~
+
 docker-compose.yml
+~~~
 version: '3'
 services:
   web:
