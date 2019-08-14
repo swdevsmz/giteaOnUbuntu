@@ -1,5 +1,5 @@
 # giteaOnUbuntu
-
+~~~
 docker-compose.yml
 version: '3'
 services:
@@ -14,3 +14,4 @@ services:
       - TZ=Japan
       - SSH_PORT=10022
     restart: always
+~~~
