@@ -5,6 +5,7 @@ docker-compose.yml
 version: '3'
 services:
   web:
+    container_name: giteaserver
     image: gitea/gitea:1.7
     volumes:
       - ./gitea-data:/data
